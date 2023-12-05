@@ -1,7 +1,7 @@
 {
     "setters": [],
-    "gqa_sg_train": "/mount/arbeitsdaten53/projekte/vision-language/data/sceneGraphs/train_sceneGraphs.json",
-    "gqa_sg_valid": "/mount/arbeitsdaten53/projekte/vision-language/data/sceneGraphs/val_sceneGraphs.json",
+    "gqa_sg_train": "",
+    "gqa_sg_valid": "",
     "img_dir": "",
     "save_results": true,
     "output_filename": "gqa_captions",
@@ -12,7 +12,7 @@
     ],
     "obj_quant_threshold": 2,
     "obj_quant_error_margin": 2,
-    "selected_image_ids": "/mount/arbeitsdaten53/projekte/vision-language/data/sceneGraphs/val_img_ids_subset.txt",
+    "selected_image_ids": "",
     "body_parts_rel": false,
     "rel_attr_patience": 5,
     "logging_level": "warning",
