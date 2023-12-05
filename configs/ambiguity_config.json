@@ -1,0 +1,55 @@
+{
+    "attribute": [],
+    "attribute_subg": [
+        "general",
+        "body_parts"
+    ],
+    "relation_subj": [
+        "general",
+        "body_parts"
+    ],
+    "relation_obj": [
+        "general",
+        "body_parts"
+    ],
+    "relation_pred": [
+        "general",
+        "body_parts"
+    ],
+    "relation_attr_subj": [
+        "general",
+        "body_parts"
+    ],
+    "relation_attr_obj": [
+        "general",
+        "body_parts"
+    ],
+    "relation_attr_pred": [
+        "general",
+        "body_parts"
+    ],
+    "obj_count": [
+        "uncountable_objects"
+    ],
+    "obj_comp_count": [
+        "uncountable_objects"
+    ],
+    "obj_verify_count": [
+        "general",
+        "uncountable_objects",
+        "body_parts"
+    ],
+    "obj_verify_count_attr": [
+        "uncountable_objects"
+    ],
+    "and_logic_attr": [],
+    "and_logic_rel": [
+        "general",
+        "body_parts"
+    ],
+    "xor_logic_attr": [],
+    "xor_logic_rel": [
+        "general",
+        "body_parts"
+    ]
+}
