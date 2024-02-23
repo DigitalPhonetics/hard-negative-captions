@@ -2,6 +2,8 @@
 
 This repository contains the source code of the publication: HNC: Leveraging Hard Negative Captions towards Models with Fine-Grained Visual-Linguistic Comprehension Capabilities at CoNLL 2023 by Esra Dönmez*, Pascal Tilli*, Hsiu-Yu Yang*, Ngoc Thang Vu and Carina Silberer.
 
+https://aclanthology.org/2023.conll-1.24.pdf
+
 ## Install Environment
 Create a virtual python environment with e.g. anaconda:
 
