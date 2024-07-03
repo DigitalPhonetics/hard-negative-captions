@@ -19,6 +19,9 @@ Install the requirements via pip:
 pip install -r requirements.txt
 ```
 
+## Download HNC captions
+Download the automatically generated train and validation set as well as the human annotated test set from DaRUS: https://doi.org/10.18419/darus-4341
+
 ## Download GQA
 To rerun the dataset creation based on scene graphs of GQA, download the dataset from https://cs.stanford.edu/people/dorarad/gqa/about.html .
 
@@ -27,8 +30,28 @@ Input the paths for the train and valid split of the GQA scene graphs into the `
 
 ## Run the Script
 To run the dataset creation, just execute the main.py via:
-```
+```bash
 python main.py
 ```
 Optionally, you can pass a `--config` argument followed by the path to your config.
 As default, the script uses the `config_default.json`.
+
+## Citation
+```bibtex
+@inproceedings{hnc,
+    title = "{HNC}: Leveraging Hard Negative Captions towards Models with Fine-Grained Visual-Linguistic Comprehension Capabilities",
+    author = {D{\"o}nmez, Esra  and
+      Tilli, Pascal  and
+      Yang, Hsiu-Yu  and
+      Vu, Ngoc Thang  and
+      Silberer, Carina},
+    booktitle = "Proceedings of the 27th Conference on Computational Natural Language Learning (CoNLL)",
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.conll-1.24",
+    doi = "10.18653/v1/2023.conll-1.24",
+    pages = "364--388",
+}
+```
+
