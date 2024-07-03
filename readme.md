@@ -7,15 +7,15 @@ https://aclanthology.org/2023.conll-1.24.pdf
 ## Install Environment
 Create a virtual python environment with e.g. anaconda:
 
-```
+```bash
 conda create --name hnc python=3.10
 ```
 Activate the just created environment with:
-```
+```bash
 conda activate hnc
 ```
 Install the requirements via pip:
-```
+```bash
 pip install -r requirements.txt
 ```
 
