@@ -19,8 +19,9 @@ Install the requirements via pip:
 pip install -r requirements.txt
 ```
 
-## Download HNC captions
+## Download HNC
 Download the automatically generated train and validation set as well as the human annotated test set from DaRUS: https://doi.org/10.18419/darus-4341
+or HuggingFace: https://huggingface.co/datasets/patilli/HNC 
 
 ## Download GQA
 To rerun the dataset creation based on scene graphs of GQA, download the dataset from https://cs.stanford.edu/people/dorarad/gqa/about.html .
@@ -54,4 +55,3 @@ As default, the script uses the `config_default.json`.
     pages = "364--388",
 }
 ```
-
